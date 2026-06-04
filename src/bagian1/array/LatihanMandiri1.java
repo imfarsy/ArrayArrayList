@@ -21,7 +21,7 @@ public class LatihanMandiri1 {
         String[] hari = {"Senin", "Selasa", "Rabu", "Kamis", "Jumat"};
 
         for (String h : hari) {
-            // .length() pada String → hitung jumlah karakternya
+            // .length() pada String untk hitung jumlah karakternya
             if (h.length() > 5) {
                 System.out.println(h + " (" + h.length() + " huruf)");
             }
@@ -32,7 +32,7 @@ public class LatihanMandiri1 {
         int genap = 0;
 
         for (int a : angka) {
-            // % adalah operator modulus (sisa bagi), kalo sisa bagi 2 = 0, berarti genap 
+            // %: operator modulus (sisa bagi), kalo sisa bagi 2 = 0, berarti genap 
             if (a % 2 == 0) genap++;
         }
         System.out.println("Jumlah bilangan genap: " + genap); // 4
